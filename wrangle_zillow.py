@@ -90,3 +90,19 @@ def Min_Max_Scaler(X_train, X_validate, X_test):
     
     return scaler, X_train_scaled, X_validate_scaled, X_test_scaled
 
+#Function to see outliers
+def outlier_calculation(df, variable):
+    '''
+    calcualtes the lower and upper bound to locate outliers in variables
+    '''
+    quartile1, quartile3 = np.percentile(df[variable], [25,75])
+    IQR_value = quartile3 - quartile1
+    lower = quartile1 - (1.5 * IQR_value)
+    upper = quartile3 + (1.5 * IQR_value)
+    '''
+    returns the lowerbound and upperbound values
+    '''
+    print(f'For {variable} the lower bound is {lower} and  upper bound is {upper}')
+    df = df[(df[variable] > lower) & (df[variable] < upper)]
+    return df
+
