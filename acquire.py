@@ -26,7 +26,7 @@ def new_zillow_data():
 
     sql_query = '''SELECT propertylandusetypeid, 
                  transactiondate, calculatedfinishedsquarefeet, bedroomcnt, 
-                 bathroomcnt, taxvaluedollarcnt, taxamount   
+                 bathroomcnt, taxvaluedollarcnt, taxamount, fips   
                  FROM predictions_2017 
                  JOIN properties_2017 using (parcelid) 
                  JOIN propertylandusetype using (propertylandusetypeid) 
