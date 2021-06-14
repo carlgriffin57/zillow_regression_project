@@ -2,6 +2,8 @@
 
 ## This is the README for the Zillow Regression Project
 
+### Building a Predictive Model for Property Values in Los Angeles County, Orange County and Ventura County, CA
+
 ### Goals
 - Goal 1: Predict the values of single unit properties based on transactions dates between May - August 2017 
 - Goal 2: Identify the county and state where the properties are located in addition to the distribution of property tax rates.
@@ -10,7 +12,23 @@
 - Is there a correlation between number of bathrooms and tax appraised value?
 - If there a correlation between number of bedrooms and tax appraised value?
 
+### Included in this repo:
+
+
+-This Readme file:
+
+--Project Overview and Key Takeaways
+--Data Dictionary
+--Skills and tools necessary for replication
+--Outline of process and tips for replication
+
 ### Data Dictionary
+| Target            | Description                                | Data Type |
+|--------------------|--------------------------------------------|-----------|
+| taxvaluedollarrcnt | The total tax assessed value of the parcel | float64   |
+
+
+
 | Attribute                    | Definition                                                                                                         | Data Type |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------|-----------|
 | parcelid                     | Unique identifier for each property                                                                                | int64     |
