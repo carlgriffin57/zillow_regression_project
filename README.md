@@ -21,6 +21,21 @@
     - Data Dictionary
     - Skills and tools necessary for replication
     - Outline of process and tips for replication
+    
+- Python files needed:
+
+    - acquire.py
+    - wrangle_zillow.py
+    - evaluate.py
+    
+- Final notebook with:
+
+    - Explanation of acquiring, cleaning and prepping the data
+    - Exploratory analysis
+    - Hypotheses
+    - Visualizations
+    - Baseline model creation
+    - Final model development
 
 ### Data Dictionary
 | Target            | Description                                | Data Type |
@@ -39,3 +54,43 @@
 | tax_rate                     | Calculated tax rate for the property                                                                               | float64   |
 | taxamount                    | The total property tax assessed for that assessment year                                                           | int64     |
 | propertylandusetypeid        | Type of land use the property is zoned for                                                                         | int64     |
+
+
+### Tips for Project Replication
+
+#### Technical Skills
+
+- Python:
+
+    - Pandas
+    - Seaborn
+    - Matplotlib
+    - Numpy
+    - Sklearn 
+- SQL
+
+- Statistical Analysis:
+
+    - Descriptive Stats
+    - Hypothesis Testing
+    - Pearsons Correlation Testing
+    - Independent T-test
+    
+- Regression Modeling:
+
+- Linear Regression:
+
+    - LASSO + LARS
+    - Generalized Linear Model (TweedieRegressor)
+    - Baseline Accuracy
+    
+#### Project Process
+
+Trello Board 
+https://trello.com/invite/b/5UAXYMrN/6df7dfe75d97cd4c5f9be7738376d19f/zillow-regression-project
+
+Key Findings:
+
+- Number of Bathrooms, Number of Bedrooms, and Finished Living Area Square Feet are the top three drivers of property value.
+- The mean baseline is $442223.20 and the baseline model performance can be evaluated by an RMSE of $417210.06
+- The GLM model performs better than the baseline model with a RMSE of $356,139.80 on out of sample data.
