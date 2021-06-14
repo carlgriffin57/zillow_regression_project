@@ -17,10 +17,10 @@
 
 - This Readme file:
 
--- Project Overview and Key Takeaways
--- Data Dictionary
--- Skills and tools necessary for replication
--- Outline of process and tips for replication
+    -- Project Overview and Key Takeaways
+    -- Data Dictionary
+    -- Skills and tools necessary for replication
+    -- Outline of process and tips for replication
 
 ### Data Dictionary
 | Target            | Description                                | Data Type |
