@@ -95,4 +95,4 @@ Key Findings:
 
 - Number of Bathrooms, Number of Bedrooms, and Finished Living Area Square Feet are the top three drivers of property value.
 - The mean baseline is $442223.20 and the baseline model performance can be evaluated by an RMSE of $417210.06
-- The GLM model performs better than the baseline model with a RMSE of $356,139.80 on out of sample data.
+- The Lasso/LARS model performed better than the baseline model with a RMSE of $356,139.80 on out of sample data.
