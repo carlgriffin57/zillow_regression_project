@@ -37,7 +37,7 @@
     - Baseline model creation
     - Final model development
     
-- My Google slide presentation is located [here]https://docs.google.com/presentation/d/1uHzSAQO84bC6w9ilzks5Rrr1gbrDY3NbPW4_s5zKI90/edit?usp=sharing
+- My Google slide presentation is located [here](https://docs.google.com/presentation/d/1uHzSAQO84bC6w9ilzks5Rrr1gbrDY3NbPW4_s5zKI90/edit?usp=sharing)
 
 ### Data Dictionary
 | Target            | Description                                | Data Type |
