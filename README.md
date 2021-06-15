@@ -88,8 +88,8 @@
     
 #### Project Process
 
-Trello Board 
-https://trello.com/invite/b/5UAXYMrN/6df7dfe75d97cd4c5f9be7738376d19f/zillow-regression-project
+Trello Board: [here] 
+(https://trello.com/invite/b/5UAXYMrN/6df7dfe75d97cd4c5f9be7738376d19f/zillow-regression-project)
 
 Key Findings:
 
