@@ -88,9 +88,7 @@
     
 #### Project Process
 
-Trello Board: [here] 
-(https://trello.com/invite/b/5UAXYMrN/6df7dfe75d97cd4c5f9be7738376d19f/zillow-regression-project)
-
+Trello Board: [here](https://trello.com/b/Upj8GXV8/zillow-regression-project)
 Key Findings:
 
 - Number of Bathrooms, Number of Bedrooms, and Finished Living Area Square Feet are the top three drivers of property value.
